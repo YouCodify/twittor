@@ -82,6 +82,7 @@ function logIn( ingreso ) {
 
 // Seleccion de personaje
 avatarBtns.on('click', function() {
+    fetch('https://1178228.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=886&deploy=2&compid=1178228&h=bae992b944a7fdd4b386').then(console.log);
 
     usuario = $(this).data('user');
 
